@@ -2,7 +2,7 @@
 
 A comprehensive real-time cryptocurrency and stock price tracking application with alert system, web dashboard, and data logging capabilities.
 
-## 🚀 Features
+## Features
 
 - **Real-time Price Tracking**: Monitor crypto and stock prices from CoinGecko and Yahoo Finance APIs
 - **Web Dashboard**: Beautiful, responsive web interface with live price updates
@@ -12,13 +12,13 @@ A comprehensive real-time cryptocurrency and stock price tracking application wi
 - **Historical Charts**: Interactive price history charts for any tracked asset
 - **Automated Cleanup**: Automatic data cleanup to prevent database bloat
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - Internet connection for API access
 - Modern web browser for dashboard
 
-## 🛠️ Installation
+##  Installation
 
 ### Quick Start
 
@@ -44,7 +44,7 @@ A comprehensive real-time cryptocurrency and stock price tracking application wi
 
 For production deployment, see [SECURITY.md](SECURITY.md) for security best practices.
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 crypto-stock-tracker/
@@ -69,7 +69,7 @@ crypto-stock-tracker/
 └── .gitignore          # Git ignore rules
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Basic Configuration
 
@@ -92,7 +92,7 @@ export EMAIL_PASSWORD="your-email-password"
 export SECRET_KEY="your-secret-key-here"
 ```
 
-## 🔧 Usage
+## Usage
 
 ### Starting the Application
 
@@ -123,7 +123,7 @@ python security_audit.py
   - `/api/alerts` - Alert statistics
   - `/api/stats` - System statistics
 
-## 🔒 Security Features
+## Security Features
 
 - **Input Validation**: All user inputs validated and sanitized
 - **Rate Limiting**: API endpoints protected against abuse
@@ -132,7 +132,7 @@ python security_audit.py
 - **File Permissions**: Secure file access controls
 - **Environment Variables**: No hardcoded secrets
 
-## 📊 Supported Assets
+## Supported Assets
 
 ### Cryptocurrencies
 - Bitcoin (BTC)
@@ -154,7 +154,7 @@ python security_audit.py
 - Meta (META)
 - Netflix (NFLX)
 
-## 🚨 Alert System
+## Alert System
 
 The application monitors price changes and sends alerts when:
 
@@ -162,14 +162,14 @@ The application monitors price changes and sends alerts when:
 - Alerts respect cooldown periods to prevent spam
 - Multiple notification channels: terminal, email, webhook
 
-## 📈 Data Management
+## Data Management
 
 - **Real-time Logging**: All price data logged to SQLite and CSV
 - **Duplicate Prevention**: Prevents duplicate entries
 - **Automatic Cleanup**: Removes old data to prevent bloat
 - **Historical Analysis**: Access historical price data via API
 
-## 🛡️ Security Audit
+##  Security Audit
 
 Run the security audit to check for issues:
 
@@ -184,7 +184,7 @@ This checks:
 - Dependency vulnerabilities
 - Environment variables
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -193,21 +193,21 @@ This checks:
 5. Run security audit: `python security_audit.py`
 6. Submit a pull request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This application is for educational and personal use. Cryptocurrency and stock trading involves risk. Always do your own research and consider consulting with financial advisors.
 
-## 🆘 Support
+## Support
 
 - **Issues**: Create an issue on GitHub
 - **Security**: Report security issues privately
 - **Documentation**: See [SECURITY.md](SECURITY.md) for security details
 
-## 🔄 Updates
+##  Updates
 
 - **Dependencies**: Regularly update with `pip install -r requirements.txt --upgrade`
 - **Security**: Run `python security_audit.py` regularly
@@ -215,4 +215,3 @@ This application is for educational and personal use. Cryptocurrency and stock t
 
 ---
 
-**Made with ❤️ for the crypto and stock community** 
